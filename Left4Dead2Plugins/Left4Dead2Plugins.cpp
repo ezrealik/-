@@ -3,8 +3,7 @@
 //
 
 #include "stdafx.h"
-#include "Left4Dead2Plugins.h"
-#include "Left4Dead2PluginsDlg.h"
+
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -68,23 +67,15 @@ BOOL CLeft4Dead2PluginsApp::InitInstance()
 	// 更改用于存储设置的注册表项
 	// TODO: 应适当修改该字符串，
 	// 例如修改为公司或组织名
-	SetRegistryKey(_T("应用程序向导生成的本地应用程序"));
+	SetRegistryKey(_T("生死4人组插件管理器V1.12"));
 
 	CLeft4Dead2PluginsDlg dlg;
 	m_pMainWnd = &dlg;
 	INT_PTR nResponse = dlg.DoModal();
-	if (nResponse == IDOK)
-	{
-		// TODO: 在此放置处理何时用
-		//  “确定”来关闭对话框的代码
+	if (nResponse == IDOK) {
+
 	}
-	else if (nResponse == IDCANCEL)
-	{
-		// TODO: 在此放置处理何时用
-		//  “取消”来关闭对话框的代码
-	}
-	else if (nResponse == -1)
-	{
+	else if (nResponse == -1){
 		TRACE(traceAppMsg, 0, "警告: 对话框创建失败，应用程序将意外终止。\n");
 		TRACE(traceAppMsg, 0, "警告: 如果您在对话框上使用 MFC 控件，则无法 #define _AFX_NO_MFC_CONTROLS_IN_DIALOGS。\n");
 	}

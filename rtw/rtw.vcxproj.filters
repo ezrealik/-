@@ -15,67 +15,46 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
+    <ClInclude Include="..\Left4Dead2Plugins\json\autolink.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Left4Dead2Plugins\json\config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Left4Dead2Plugins\json\features.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Left4Dead2Plugins\json\forwards.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Left4Dead2Plugins\json\json.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Left4Dead2Plugins\json\json_batchallocator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Left4Dead2Plugins\json\reader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Left4Dead2Plugins\json\value.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Left4Dead2Plugins\json\writer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Left4Dead2Plugins.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Left4Dead2PluginsDlg.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="stdafx.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Resource.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="unzip.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Left4Dead2Plugins.cpp">
+    <ClCompile Include="..\Left4Dead2Plugins\json\json_reader.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Left4Dead2PluginsDlg.cpp">
+    <ClCompile Include="..\Left4Dead2Plugins\json\json_value.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="stdafx.cpp">
+    <ClCompile Include="..\Left4Dead2Plugins\json\json_writer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="unzip.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="Left4Dead2Plugins.rc">
-      <Filter>资源文件</Filter>
-    </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="res\Left4Dead2Plugins.rc2">
-      <Filter>资源文件</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="res\Left4Dead2Plugins.ico">
-      <Filter>资源文件</Filter>
-    </Image>
-    <Image Include="res\icon.ico">
-      <Filter>资源文件</Filter>
-    </Image>
-    <Image Include="res\icon2.ico">
-      <Filter>资源文件</Filter>
-    </Image>
-    <Image Include="res\No.ico">
-      <Filter>资源文件</Filter>
-    </Image>
-    <Image Include="res\Yes.ico">
-      <Filter>资源文件</Filter>
-    </Image>
   </ItemGroup>
 </Project>
